@@ -4,6 +4,7 @@ module.exports = {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class', // Enable dark mode using the 'class' strategy
   theme: {
     extend: {
       colors: {
@@ -15,15 +16,14 @@ module.exports = {
         veryDarkBlue: 'hsl(233, 12%, 13%)',
         veryPaleRed: 'hsl(13, 100%, 96%)',
         veryLightGray: 'hsl(0, 0%, 98%)',
-      }
-
+      },
     },
     screens: {
       sm: '480px',
       md: '768px',
       lg: '976px',
-      xl:'1440px'
-    }
+      xl: '1440px',
+    },
   },
   plugins: [],
 }
