@@ -1,0 +1,23 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #phone_menu{
+    position: absolute;
+    width: 100vw;
+    top: 5px;
+    right: 0px;
+ 
+} */
+
+#close_btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+
+.menu-item:hover{
+    cursor: pointer;
+}
